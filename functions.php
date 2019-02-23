@@ -6,7 +6,7 @@ function load_stylesheets()
     wp_enqueue_style('bootstrap');
 
 
-    wp_register_style('style', get_template_directory_uri() . "/css/style.css", array(), false, 'all');
+    wp_register_style('style', get_template_directory_uri() . "/style.css", array(), false, 'all');
     wp_enqueue_style('style');
 }
 
