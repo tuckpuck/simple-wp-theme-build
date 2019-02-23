@@ -2,3 +2,7 @@
 Theme Name: Test Theme
 Author: Tucker Triggs 
 */
+
+body {
+    box-sizing: border-box;
+}
