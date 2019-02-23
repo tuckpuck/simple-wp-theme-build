@@ -1,3 +1,3 @@
 <?php get_header();?>
-hello world
+<div class="text-center">hello world</div> 
 <?php get_footer();?>
