@@ -41,8 +41,10 @@ register_nav_menus(
     )
     );
 
-add_image_size('smallest', 300, 300, true);
-add_image_size('largest', 800, 800, true);
+add_image_size('smallest', 300, 300, false);
+add_image_size('largest', 800, 800, false);
+add_image_size('full', 1280, 1280, false);
+
 
 
 
